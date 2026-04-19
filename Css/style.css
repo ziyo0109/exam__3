@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,13 +6,20 @@
     text-decoration: none;
     font-family: sans-serif;
 }
-.container{
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.container {
     width: 100%;
     height: 100px;
     /* background-color: #f1c7e76d; */
-    padding:0px 30px;
+    padding: 0px 30px;
 }
-.horizantal__link{
+
+.horizantal__link {
     width: 100%;
     height: 30px;
     /* background-color: red; */
@@ -24,60 +31,72 @@
     font-size: 14px;
     color: #3BB77E;
 }
-.horizantal__links{
+
+.horizantal__links {
     align-items: center;
     justify-content: center;
     display: flex;
     gap: 20px;
 }
-.gray{
+
+.gray {
     color: #7E7E7E;
 }
-a{
+
+a {
     color: #7E7E7E;
 }
-.content{
+
+.content {
     width: 100%;
     height: 60px;
-    padding:0px 30px;
+    padding: 0px 30px;
     align-items: center;
     justify-content: center;
     display: flex;
     border-top: 1px solid #7e7e7e5a;
 }
-.content__nav{
+
+.content__nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 55px;
 }
-.content__item{
+
+.content__item {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
-.content__links{
+
+.content__links {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
-.content__links .title{
+
+.content__links .title {
     align-items: center;
     justify-content: center;
     display: flex;
     gap: 15px;
 }
-.content__item button{
+
+.content__item button {
     padding: 8px 20px;
     background-color: inherit;
     border-radius: 10px;
     border: 1px solid #7E7E7E;
     color: #3BB77E;
 }
-.title i{
+
+.title i {
     color: rgba(0, 0, 0, 0.825);
-}.content__in--btn{
+}
+
+.content__in--btn {
     width: 300px;
     height: 30px;
     border: 1px solid #3BB77E;
@@ -86,19 +105,22 @@ a{
     align-items: center;
     justify-content: space-between;
 }
-.content__in--btn button{
+
+.content__in--btn button {
     padding: 5px;
     background-color: #3BB77E;
     border: none;
     border-radius: 3px;
     color: #fff;
 }
-.content__in--btn input{
+
+.content__in--btn input {
     outline: none;
     text-indent: 10px;
     border: none;
 }
-.detals{
+
+.detals {
     width: 100%;
     height: 50px;
     padding: 0px 30px;
@@ -108,50 +130,60 @@ a{
     gap: 50px;
     border-top: 1px solid #7e7e7e6f;
 }
-.detals__link{
+
+.detals__link {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
-.detals__link--link{
+
+.detals__link--link {
     color: black;
     align-items: center;
     justify-content: center;
     display: flex;
     font-size: 13px;
 }
-.sup{
+
+.sup {
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.sup i{
+
+.sup i {
     font-size: 32px;
 }
-.sup__title h3{
+
+.sup__title h3 {
     color: #3BB77E;
     font-size: 20px;
 }
-.sup__title p{
+
+.sup__title p {
     font-size: 12px;
     color: #7E7E7E;
 }
-.detals__btn button{
+
+.detals__btn button {
     padding: 8px 20px;
     border: none;
     border-radius: 5px;
     background-color: #3BB77E;
     color: #fff;
 }
-.detals__btn i{
+
+.detals__btn i {
     color: #3BB77E;
 }
-.detals__link--link i{
+
+.detals__link--link i {
     color: #7E7E7E;
     font-size: 13px;
 }
-.banner{
+
+.banner {
     width: 100%;
     padding-top: 80px;
     text-align: center;
@@ -165,16 +197,19 @@ a{
     display: flex;
     flex-direction: column;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 38px;
     padding: 10px;
 }
-.banner p{
+
+.banner p {
     font-size: 18px;
     color: #7E7E7E;
     padding: 15px;
 }
-.banner__in--btn{
+
+.banner__in--btn {
     width: 350px;
     height: 50px;
     background-color: #fff;
@@ -184,7 +219,8 @@ a{
     text-align: center;
     margin-top: 20px;
 }
-.banner__in--btn input{
+
+.banner__in--btn input {
     outline: none;
     border: none;
     text-indent: -px;
@@ -193,7 +229,8 @@ a{
     /* background-color: none; */
     background: none;
 }
-.banner__in--btn button{
+
+.banner__in--btn button {
     padding: 17px 28px;
     border: none;
     border-radius: 20px;
@@ -201,7 +238,8 @@ a{
     margin-left: 67px;
     color: #fff;
 }
-.box{
+
+.box {
     width: 100%;
     height: 30px;
     align-items: center;
@@ -211,25 +249,28 @@ a{
     padding-top: 80px;
     /* background-color: rgb(151, 118, 118); */
 }
-.box1{
+
+.box1 {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     border: 1.5px solid black;
 }
-.box2{
+
+.box2 {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: #3BB77E;
 }
 
-section{
+section {
     width: 100%;
     height: 100vh;
     padding: 0px 30px;
 }
-.section__title{
+
+.section__title {
     width: 100%;
     height: 30px;
     /* background-color: #253D4E; */
@@ -237,14 +278,17 @@ section{
     justify-content: space-evenly;
     display: flex;
 }
-.section__title h1{
+
+.section__title h1 {
     font-size: 20px;
 }
-.section__title a{
+
+.section__title a {
     font-size: 14px;
     color: black;
 }
-.section__card{
+
+.section__card {
     width: 100%;
     height: 500px;
     align-items: center;
@@ -253,7 +297,8 @@ section{
     gap: 15px;
     /* background-color: red; */
 }
-.section__card{
+
+.section__card {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -263,15 +308,16 @@ section{
     height: auto;
 }
 
-.section__cards{
+.section__cards {
     width: 180px;
     height: 300px;
     border: solid 1px gray;
     border-radius: 15px;
-    padding:0px 10px;
+    padding: 0px 10px;
     /* background-color: #a5c2b5; */
 }
-.section__cards--foiz{
+
+.section__cards--foiz {
     width: 50px;
     height: 20px;
     background-color: #3BB77E;
@@ -282,33 +328,40 @@ section{
     padding: 5px;
     color: #fff;
 }
-.section__cards--title p{
-    padding:0px 5px;
+
+.section__cards--title p {
+    padding: 0px 5px;
     font-size: 10px;
     color: #7E7E7E;
 }
-.section__cards--title h3{
+
+.section__cards--title h3 {
     font-size: 15px;
 }
-.section__cards h1{
+
+.section__cards h1 {
     font-size: 12px;
     color: #3BB77E;
 }
-.card__btn{
+
+.card__btn {
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
-.card__btn h2{
+
+.card__btn h2 {
     color: #3BB77E;
     font-size: 15px;
     padding-top: 5px;
 }
-.card__btn .gray{
+
+.card__btn .gray {
     color: #7e7e7eb2;
     font-size: 12px;
 }
-.section__card button{
+
+.section__card button {
     padding: 5px 8px;
     color: #3BB77E;
     background-color: #DEF9EC;
@@ -316,8 +369,8 @@ section{
     border-radius: 5px;
 }
 
-.catagory{
-    width:280px;
+.catagory {
+    width: 280px;
     height: 550px;
     /* background-color: #3BB77E; */
     margin-left: 25px;
@@ -325,10 +378,12 @@ section{
     padding: 10px;
     border-radius: 10px;
 }
-.catagory h1{
+
+.catagory h1 {
     font-size: 20px;
 }
-.catagory__btn{
+
+.catagory__btn {
     width: 200px;
     height: 40px;
     border: 1px solid rgba(128, 128, 128, 0.518);
@@ -337,38 +392,423 @@ section{
     padding: 7px;
     margin: 10px;
 }
-.catagory__btn i{
+
+.catagory__btn i {
     font-size: 18px;
     color: #3BB77E;
 }
-.catagory__btn button{
+
+.catagory__btn button {
     background: none;
     color: black;
 }
-.catagory__btn span{
+
+.catagory__btn span {
     width: 40px;
     height: 40px;
     background-color: #3BB77E;
     color: #fff;
     border-radius: 50%;
 }
-.card2{
+
+.card2 {
     display: flex;
     align-items: center;
     justify-content: start;
     gap: 10px;
 }
-.card2 button{
+
+.card2 button {
     padding: 5px 8px;
     color: #3BB77E;
     background-color: #DEF9EC;
     border: none;
     border-radius: 5px;
 }
-.boxchaa{
+
+.boxchaa {
     width: 400px;
-    height: 250px;
+    height: 330px;
     border: 1px solid rgba(128, 128, 128, 0.518);
     margin-top: 80px;
     margin-left: 40px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.boxchaa__title {
+    width: 200px;
+    height: 40px;
+    /* text-align: center; */
+    font-size: 12px;
+    border-bottom: 1px solid #3BB77E;
+    margin-bottom: 25px;
+}
+
+.boxchaa__btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.boxchaa__btn button {
+    padding: 6px 18px;
+    border-radius: 30px;
+    color: #3BB77E;
+    background: none;
+    border: 1px solid #7E7E7E
+}
+
+.main__card {
+    width: 100%;
+    /* height:px; */
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    /* background-color: red; */
+}
+
+.main__title {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main__title h1 {
+    font-size: 18px;
+}
+
+.main__title span {
+    color: #3BB77E;
+}
+
+.hambger {
+    width: 220px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(/img/Organic\ Cage\ Grade\ A\ Large\ \ Eggs.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    padding-top: 250px;
+}
+
+.hambger__card {
+    width: 200px;
+    height: 180px;
+    background-color: #f6f2f2;
+    margin: 25px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.hambger__card h2 {
+    font-size: 16px;
+}
+
+.hambger__card p {
+    font-size: 12px;
+    color: #3BB77E;
+}
+
+.hambger button {
+    padding: 5px 8px;
+    color: #3BB77E;
+    background-color: #DEF9EC;
+    border: none;
+    border-radius: 5px;
+}
+
+.said {
+    width: 100%;
+    /* height: 400px; */
+    /* background-color: red; */
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cardes {
+    width: 400px;
+    height: 200px;
+    background-image: url(/img/alt.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: start;
+}
+
+.cardes2 {
+    width: 400px;
+    height: 200px;
+    background-image: url(/img/alt\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: start;
+}
+
+.cardes3 {
+    width: 400px;
+    height: 200px;
+    background-image: url(/img/alt\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: start;
+}
+
+.cardes h1 {
+    font-size: 20px;
+    padding: 55px 20px 0px;
+}
+
+.cardes2 h1 {
+    font-size: 20px;
+    padding: 55px 20px 0px;
+}
+
+.cardes3 h1 {
+    font-size: 20px;
+    padding: 55px 20px 0px;
+}
+
+.said button {
+    margin: 15px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    background-color: #3BB77E;
+}
+
+.food__card {
+    width: 100%;
+    /* height: 400px; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    /* background-color: #3BB77E; */
+}
+
+.food__cards {
+    width: 300px;
+    /* height: 400px; */
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.food__cards--first {
+    width: 400px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.food__card h1 {
+    font-size: 22px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #3BB77E;
+}
+
+.food__cards--title h2 {
+    font-size: 18px;
+}
+
+.food__cards--title h3 {
+    color: #3BB77E;
+}
+
+.foo {
+    width: 100%;
+}
+
+.aside {
+    width: 100%;
+    height: 300px;
+    background-color: #82cdaab6;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.aside__title {
+    padding-left: 100px;
+}
+
+.aside__title h2 {
+    font-size: 40px;
+    padding: 15px 0px;
+}
+
+.aside__title p {
+    font-size: 13px;
+}
+
+.foo__card {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.foo__card--img img {
+    width: 50px;
+}
+
+.foo__card--title h3 {
+    font-size: 14px;
+}
+
+.foo__card--title .gray {
+    font-size: 12px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: #3BB77E solid 1px;
+}
+
+.footer__2 {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 30px;
+}
+
+.icons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.first__title {
+    font-size: 14px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.first__title i {
+    color: #3BB77E;
+}
+
+.first__title .green {
+    color: #3BB77E;
+}
+
+.first__title a {
+    color: black;
+    font-size: 2ppx;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer__links a{
+    font-size: 10px;
+}
+.footer__links h2{
+    font-size: 18px;
+}
+.footer__install h2{
+    font-size: 18px;
+    padding: 10px 10px;
+}
+.footer__install p{
+    font-size: 14px;
+    padding: 0px 10px;
+}
+.footer__install img{
+    padding: 20px 0px;
+}
+.footer__3--title{
+    display: flex;
+    align-items: center ;
+}
+.footer__2--title p{
+    font-size: 12px;
+}
+.box__number h2{
+    color: #3BB77E;
+    font-size: 18px;
+}
+.footer__3--title p{
+    font-size: 14px;
+}
+
+.footcha {
+    margin-left: 20px;
+}
+.icons{
+    gap: 5px;
+}
+.icons-s i{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #3BB77E;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+@media (max-width : 1100px) {
+    .boxchaa {
+        display: none;
+    }
+    .detals__btn {
+        display: none;
+    }
+}
+
+@media (max-width : 1024px) {
+    .catagory {
+        display: none;
+    }
+    .content__nav{
+        display: none;
+    }
+    .aside__img{
+        display: none;
+    }
+    .foo__card{
+        display: none;
+    }
+}
+@media (max-width : 678px) {
+    .card2{
+        display: none;
+    }
+}
+@media (max-width : 645px) {
+    .food__card{
+        gap: 10px;
+    }
+    .detals{
+        width: 100%;
+    }
 }
